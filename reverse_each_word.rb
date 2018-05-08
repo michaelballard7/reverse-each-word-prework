@@ -1,3 +1,3 @@
 def reverse_each_word(str)
-   str.split("").reverse
+   str.split(",").reverse
 end
