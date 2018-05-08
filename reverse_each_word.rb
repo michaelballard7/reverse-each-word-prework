@@ -1,3 +1,7 @@
 def reverse_each_word(str)
-   str.split(",").reverse
+  arr= str.split(",")
+  arr.each do |x|
+    x.reverse
+  end
+  arr.join
 end
